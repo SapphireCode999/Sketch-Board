@@ -1,0 +1,107 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Comfortaa, Cursive;
+}
+
+html, body{
+    height: 100%;
+}
+
+.board {
+    background-color: white;
+    box-shadow: -1px 2px 25px 3px #8B88FF;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.screen h1{
+    margin-top: 2rem;
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    min-height: 100px;
+    min-width: 400px;
+    background-color: rgba(107,72,255,0.3);
+    padding: 0px 30px;
+    border: 3px solid #7A57D1;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.tools .button {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #7A57D1;
+    cursor: pointer;
+    color:#7A57D1;
+    background: #d9d9f3;
+    font-weight: bold;
+    margin: 0 15px;
+    border-radius: 15px;
+}
+
+.color-picker {
+    appearance: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border: 2px solid #7A57D1;
+    border-radius: 20px;
+}
+
+.brush{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d9f3;
+    margin: 0 10px;
+    padding: 10px 5px;
+    border: 2px solid #7A57D1;
+    border-radius: 10px;
+}
+
+.button{
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Comfortaa, Cursive;
+}
+
+.button span{
+    margin-right: 8px;
+}
+
+.brush span, .upload-image span{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.clear-btn, .erase, .download-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
